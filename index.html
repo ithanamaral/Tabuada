@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABUADA</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+        <h1>TABUADA</h1>
+    <h2>Digite um número e confirme para gerar seus múltiplos</h2>
+    <form id="multiplication_form">
+        <div class="form_control">
+            <label for="number">Múltiplos do:</label>
+            <input type="number" name="number" id="number" placeholder="3">
+        </div>
+        <div class="form_control">
+            <label for="multiplicator">Multiplicar até:</label>
+            <input type="number" name="multiplicator" id="multiplicator" value="10">
+        </div>
+        <input type="submit" value="calcular">
+    </form>
+
+    <div id="multiplication_table">
+        <h2 id="multiplication_title">Múltiplos do número: <span></span></h2>
+        <div id="multiplication_operations">
+            <p>Informe um número para calcular seus múltiplos...</p>
+        </div>
+    </div>
+</div>
+</main>
+</body>
+
+</html>
