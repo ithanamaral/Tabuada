@@ -123,3 +123,29 @@ margin-left: 0.4rem;
 
 
 }
+
+
+
+
+
+@media only screen and (max-width: 1080px){
+
+ body{
+        align-items: center;
+        overflow-y: hidden;
+ }
+
+main{
+    width: 90%;
+    height: 50%;
+}
+
+.container{
+    padding-top: 5rem;
+}
+
+#multiplication_form{
+    margin-bottom: 7rem;
+}
+
+}
